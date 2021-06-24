@@ -13,7 +13,7 @@ namespace JenkinsCICDTest.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            //test
+            //test2
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
