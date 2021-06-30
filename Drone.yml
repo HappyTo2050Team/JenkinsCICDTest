@@ -1,0 +1,9 @@
+kind pipeline
+type docker
+name default
+ 
+steps
+- name docker
+  image mcr.microsoft.com/dotnet/aspnet
+  commands 
+    - dotnet build JenkinsCICDTest.sln -c Release
