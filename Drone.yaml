@@ -3,6 +3,6 @@ name: default
  
 steps:
 - name: docker
-  image: mcr.microsoft.com/dotnet/aspnet
+  image: mcr.microsoft.com/dotnet/sdk:3.1
   commands :
     - dotnet build JenkinsCICDTest.sln -c Release
